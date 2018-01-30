@@ -1,14 +1,15 @@
 import React from 'react';
+import Aux from '../../hoc/Aux/Aux';
 
 const partners = (props) => {
   return (
-    <div>
+    <Aux>
       <body>
         <div>
           <p>Partners</p>
         </div>
       </body>
-    </div>
+    </Aux>
   );
 };
 

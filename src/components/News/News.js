@@ -1,8 +1,9 @@
 import React from 'react';
+import Aux from '../../hoc/Aux/Aux';
 
 const news = (props) => {
   return (
-    <div>
+    <Aux>
       <header>
         This is a header.
       </header>
@@ -11,7 +12,7 @@ const news = (props) => {
           <p>Recent News</p>
         </div>
       </body>
-    </div>
+    </Aux>
   );
 };
 

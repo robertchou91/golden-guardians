@@ -9,7 +9,7 @@
   background-color: white;
   padding: 32px 16px;
   box-sizing: border-box;
-  transition: transform 0.3 ease-out;
+  transition: transform 0.3s ease-out;
 }
 
 @media (min-width: 500px) {
@@ -19,9 +19,9 @@
 }
 
 .Open {
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 .Close {
-  transform: translateX(-100%);
+  transform: translateY(-100%);
 }

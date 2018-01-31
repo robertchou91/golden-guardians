@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
+
 import News from './components/News/News';
 import Team from './components/Team/Team';
 import Partners from './components/Partners/Partners';
@@ -8,13 +10,14 @@ import Layout from './hoc/Layout/Layout';
 class App extends Component {
   render() {
     return (
-      <Aux>
+      <div>
         <Layout>
-          <News />
-          <Team />
-          <Partners />
+          <Switch>
+            <Route path="/team" component={Team} />
+            <Route path="/"  exact component={News} />
+          </Switch>
         </Layout>
-      </Aux>
+      </div>
     );
   }
 }

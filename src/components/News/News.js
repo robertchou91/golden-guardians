@@ -6,7 +6,9 @@ const news = (props) => {
   return (
     <Aux>
       <div>
-        <div className={classes.Header}>This is a header</div>
+        <div className={classes.Header}>
+          
+        </div>
         <p>Recent News</p>
       </div>
     </Aux>

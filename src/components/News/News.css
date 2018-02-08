@@ -1,4 +1,61 @@
 .Header {
   height: 95vh;
-  background: linear-gradient(to bottom right, #ffe766, #ffd700);
+  width: 100%;
+  background: linear-gradient(to bottom right, #ffdf32, #ffd700);
+}
+
+.Header img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 64%;
+  animation: Appear 1.5s ease-in;
+}
+
+.Header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  font-size: 2.5rem;
+  font-weight: 900;
+  display: block;
+  color: darkblue;
+  animation: moveInBottom 1s ease-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+
+  80% {
+    transform: translateY(-1rem);
+    opacity: .8;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes Appear {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: .8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.Body {
+  background-color: black;
+  height: 500px;
 }

@@ -1,8 +1,13 @@
 import React from 'react';
+import Aux from '../../../hoc/Aux/Aux';
 
 const player = (props) => {
   return (
-    <p>{props.playerName}</p>
+    <Aux>
+      <p>{props.playerName}</p>
+      <p>{props.realName}</p>
+      <img alt="Portrait" />
+    </Aux>
   );
 };
 

@@ -7,19 +7,23 @@ class Team extends Component {
     players: [
       { playername: 'Lourlo',
         realname: 'Samson Jackson',
-        portrait: 'Lourlo'
+        portrait: 'imgs/Lourlo.png'
       },
       { playername: 'Contractz', 
-        realname: 'Juan Arturo Garcia'
+        realname: 'Juan Arturo Garcia',
+        portrait: 'imgs/Contractz.png'
       },
       { playername: 'Hai', 
-        realname: 'Hai Du Lam'
+        realname: 'Hai Du Lam',
+        portrait: 'imgs/Hai.png'
       },
       { playername: 'Deftly', 
-        realname: 'Matthew Chen'
+        realname: 'Matthew Chen',
+        portrait: 'imgs/Deftly.png'
       },
       { playername: 'Matt',
-        realname: 'Matthew Elento' 
+        realname: 'Matthew Elento',
+        portrait: 'imgs/Matt.png'
       }
     ]
     
@@ -30,7 +34,6 @@ class Team extends Component {
       <Aux>
         <header>
           This is a header2.
-          <img src="imgs/Matt.png" alt="testing" />
         </header>
         <body>
           <div>

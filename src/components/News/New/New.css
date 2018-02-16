@@ -4,6 +4,10 @@
 }
 
 .News img {
-  width: 100%;
+  width: 90%;
   margin: 1rem 0;
+}
+
+.New {
+  text-align: center;
 }

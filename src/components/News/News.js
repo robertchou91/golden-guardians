@@ -7,6 +7,9 @@ import teamLogo from '../../assets/images/Logo.png';
 class News extends Component {
   state = {
     news: [
+      { newsImage: 'imgs/Feb15News.jpg',
+        newsLink: 'https://www.youtube.com/watch?v=sD6IHnoHHE8'
+      },
       { newsImage: 'imgs/Feb14News.jpg',
         newsLink: 'https://www.youtube.com/watch?v=yuKxIbCFw4Q'
       },

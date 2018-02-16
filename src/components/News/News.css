@@ -57,9 +57,13 @@
 
 .Body {
   background-color: black;
-  height: 500px;
 }
 
 .Body h2 {
   color: white;
+  text-transform: uppercase;
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 2rem 0 1rem 2rem;
 }

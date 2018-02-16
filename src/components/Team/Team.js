@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Aux from '../../hoc/Aux/Aux';
 import Player from './Player/Player';
+import classes from './Team.css';
 
 class Team extends Component {
   state = {
@@ -32,10 +33,10 @@ class Team extends Component {
   render () {
     return (
       <Aux>
-        <header>
-          This is a header2.
-        </header>
         <body>
+          <div className={classes.Banner}>
+            <img src="imgs/teambanner.png" alt="Banner" />
+          </div>
           <div>
             {this.state.players.map(player => {
               return <Player 

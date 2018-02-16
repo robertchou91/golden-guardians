@@ -4,7 +4,7 @@ import classes from './New.css';
 const news = (props) => {
   return (
     <div className={classes.News}>
-      <p>Testing</p>
+      <a href={props.link}><img src={props.newsImage} alt="News" /></a>
     </div>
   );
 };

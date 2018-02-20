@@ -11,3 +11,9 @@
 .New {
   text-align: center;
 }
+
+@media (min-width: 500px) {
+  .News img {
+    width: 50%;
+  }
+}

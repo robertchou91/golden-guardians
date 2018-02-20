@@ -22,7 +22,9 @@ class News extends Component {
     return (
       <Aux>
         <div className={classes.Header}>
-          <img src={teamLogo} alt="Logo" />
+          <div className={classes.Headerlogo}>
+            <img src={teamLogo} alt="Logo" />
+          </div>
           <h1>Golden Guardians</h1>
         </div>
         <div className={classes.Body}>

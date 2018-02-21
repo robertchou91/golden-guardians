@@ -1,6 +1,7 @@
 .Info {
  text-align: center;
- background-color: darkslategrey;
+ display: inline-block;
+ color: white;
  width: 75%;
 }
 

@@ -8,7 +8,7 @@ class Team extends Component {
     players: [
       { playername: 'Lourlo',
         realname: 'Samson Jackson',
-        portrait: 'imgs/Lourlo.png'
+        portrait: 'imgs/Lourlo.png',
       },
       { playername: 'Contractz', 
         realname: 'Juan Arturo Garcia',
@@ -33,7 +33,7 @@ class Team extends Component {
   render () {
     return (
       <Aux>
-        <body>
+        <div className={classes.Team}>
           <div className={classes.Banner}>
             <img src="imgs/teambanner.png" alt="Banner" />
           </div>
@@ -45,7 +45,7 @@ class Team extends Component {
                 playerPortrait={player.portrait} />
             })}
           </div>
-        </body>
+        </div>
       </Aux>
     );
   }

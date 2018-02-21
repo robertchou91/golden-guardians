@@ -8,8 +8,8 @@ const player = (props) => {
         <img src={props.playerPortrait} alt="Portrait" />
       </div>
       <div className={classes.Info_playerinformation}>
-        <p>{props.playerName}</p>
-        <p>{props.realName}</p>
+        <h1>{props.playerName}</h1>
+        <h3>{props.realName}</h3>
       </div>
     </div>
   );

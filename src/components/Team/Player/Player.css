@@ -1,7 +1,9 @@
-.Info img {
-  width: 100%;
+.Info {
+ text-align: center;
+ background-color: darkslategrey;
+ width: 75%;
 }
 
-.Info_portrait {
-
+.Info_portrait img {
+  width: 75%;
 }

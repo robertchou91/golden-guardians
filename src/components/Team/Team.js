@@ -37,7 +37,7 @@ class Team extends Component {
           <div className={classes.Banner}>
             <img src="imgs/teambanner.png" alt="Banner" />
           </div>
-          <div>
+          <div className={classes.Players}>
             {this.state.players.map(player => {
               return <Player 
                 playerName={player.playername}

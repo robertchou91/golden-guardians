@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Aux from '../../hoc/Aux/Aux';
 import Player from './Player/Player';
+import PlayerDesktop from './PlayerDesktop/PlayerDesktop';
 import classes from './Team.css';
 
 class Team extends Component {
@@ -40,6 +41,19 @@ class Team extends Component {
           <div className={classes.Players}>
             {this.state.players.map(player => {
               return <Player 
+                playerName={player.playername}
+                realName={player.realname}
+                playerPortrait={player.portrait} />
+            })}
+          </div>
+        </div>
+        <div className={classes.TeamDesktop}>
+          <div className={classes.BannerDesktop}>
+            <img src="imgs/teambanner.png" alt="Banner" />
+          </div>
+          <div className={classes.PlayersDesktop}>
+            {this.state.players.map(player => {
+              return <PlayerDesktop 
                 playerName={player.playername}
                 realName={player.realname}
                 playerPortrait={player.portrait} />

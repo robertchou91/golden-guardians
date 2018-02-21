@@ -7,3 +7,25 @@
 .Banner img{
   width: 100%;
 }
+
+.TeamDesktop {
+  background-color: black;
+}
+.PlayersDesktop {
+  text-align: center;
+}
+.BannerDesktop img{
+  width: 100%;
+}
+
+@media (max-width: 499px) {
+  .TeamDesktop {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+  .Team {
+    display: none;
+  }
+}

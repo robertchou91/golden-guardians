@@ -1,7 +1,11 @@
 .Header {
   height: 95vh;
   width: 100%;
-  background-image: linear-gradient(to bottom, #ffdf32, #ffd700), url('/imgs/Logo.png');
+  background-image: linear-gradient(to bottom right, rgba(255,223,50,0.8), rgba(255,215,0,0.8))
+  , url('/imgs/Logo.png');
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Headerlogo {

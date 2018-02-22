@@ -10,11 +10,12 @@
  }
 
  .Info_portrait img {
-   width: 30%;
+   width: 50%;
    display: inline-block;
  }
 
  .Info_playerinformation {
    width: 50%;
    display: inline-block;
+   vertical-align: top;
  }

@@ -27,6 +27,12 @@ class News extends Component {
           </div>
           <h1>Golden Guardians</h1>
         </div>
+        <div className={classes.DesktopHeader}>
+          <div className={classes.DesktopHeaderlogo}>
+            <img src={teamLogo} alt="Logo" />
+          </div>
+          <h1>Golden Guardians</h1>
+        </div>
         <div className={classes.Body}>
           <h2>Recent News</h2>
           <div>

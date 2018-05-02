@@ -11,7 +11,7 @@ const player = (props) => {
       </div>
       <div className={classes.Info_playerinformation}>
         <h1>Testing</h1>
-        <h1>A lot of test</h1>
+        <h1>{props.playerBio}</h1>
       </div>
     </div>
   );

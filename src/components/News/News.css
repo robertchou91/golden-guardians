@@ -75,7 +75,6 @@
   font-size: 2.5rem;
   font-weight: 700;
   padding: 4rem 0 1rem 2rem;
-  margin-left: 6rem;
 }
 
 @media (max-width: 499px) {
@@ -118,5 +117,8 @@
   }
   .Header {
     display: none;
+  }
+  .Body h2 {
+    margin-left: 6rem;
   }
 }

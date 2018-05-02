@@ -14,8 +14,14 @@
 .PlayersDesktop {
   text-align: center;
 }
-.BannerDesktop img{
-  width: 100%;
+.BannerDesktop h1{
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  margin-bottom: 5rem;
+  font-size: 8rem;
+  text-align: center;
+  color: white;
+  border-bottom: 0.2rem solid white;
 }
 
 @media (max-width: 499px) {

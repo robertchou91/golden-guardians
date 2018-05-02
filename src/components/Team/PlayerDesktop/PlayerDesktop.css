@@ -20,3 +20,6 @@
    display: inline-block;
    vertical-align: top;
  }
+ .Info_playerinformation h1 {
+   margin-bottom: 1rem;
+ }

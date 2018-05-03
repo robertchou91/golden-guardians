@@ -23,3 +23,7 @@
  .Info_playerinformation h1 {
    margin-bottom: 1rem;
  }
+
+ .Info_playerinformation h2 {
+   text-align: left;
+ }

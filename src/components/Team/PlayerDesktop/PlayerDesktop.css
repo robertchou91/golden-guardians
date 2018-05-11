@@ -15,6 +15,10 @@
    display: inline-block;
  }
 
+ .Info_social img {
+   width: 3rem;
+ }
+
  .Info_playerinformation {
    width: 50%;
    display: inline-block;

@@ -6,13 +6,13 @@ const player = (props) => {
     <div className={classes.Info}>
       <div className={classes.Info_portrait}>
         <img src={props.playerPortrait} alt="Portrait" />
-        <div className={classes.Info_social}>
-          <img src="imgs/Twitter.png" alt="Twitter" />
-        </div>
       </div>
       <div className={classes.Info_playerinformation}>
         <h1>{props.playerrealName}</h1>
         <h2>{props.playerBio}</h2>
+        <div className={classes.Info_social}>
+          <img src="imgs/Twitter.png" alt="Twitter" />
+        </div>
       </div>
     </div>
   );

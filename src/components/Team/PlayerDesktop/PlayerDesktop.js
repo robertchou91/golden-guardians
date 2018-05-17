@@ -11,7 +11,7 @@ const player = (props) => {
         <h1>{props.playerrealName}</h1>
         <h2>{props.playerBio}</h2>
         <div className={classes.Info_social}>
-          <img src="imgs/Twitter.png" alt="Twitter" />
+          <a href={props.playerTwitter}><img src="imgs/Twitter.png" alt="Twitter" /></a>
         </div>
       </div>
     </div>

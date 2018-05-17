@@ -3,8 +3,18 @@
  display: inline-block;
  color: white;
  width: 75%;
+ padding-top: 2rem;
+ margin-bottom: 2rem;
 }
 
 .Info_portrait img {
   width: 75%;
+}
+
+.Twitter img {
+  width: 4rem;
+}
+
+.Twitch img {
+  width: 6.5rem;
 }

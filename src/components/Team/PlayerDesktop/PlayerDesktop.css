@@ -36,6 +36,10 @@
   text-align: left;
 }
 
- .Info_social img {
+ .Twitter img {
   width: 4rem;
+}
+
+.Twitch img {
+  width: 6.5rem;
 }

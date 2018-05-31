@@ -6,7 +6,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 const app = (
-  <BrowserRouter basename="/golden-guardians">
+  <BrowserRouter>
     <App />
   </BrowserRouter>
 );

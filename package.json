@@ -2,7 +2,7 @@
   "name": "golden-guardians",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://robertchou91.github.io/golden-guardians",
+  "homepage": "https://robertchou91.github.io/golden-guardians",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
